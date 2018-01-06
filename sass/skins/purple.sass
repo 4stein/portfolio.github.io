@@ -1,0 +1,159 @@
+@import "../bourbon/bourbon"
+
+$color: #8238A7 //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+
+p
+	color: $text_color
+
+section
+	h4
+		+kerning(3)
+		color: $text_color
+
+.footer
+	color: $text_color!important
+	// +kerning(0)
+
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+.bg_light
+	background-color: $bg_light
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	a
+		color: #fff
+
+.main_color_bg
+	background-color: $main_color
+
+svg
+	path
+		fill: #e0e0e0!important
+
+// TOGGLE-NAV
+.nav
+	a
+		color: #fff
+		+kerning(4)
+		&:hover
+			color: $color
+			// background-color: rgba(255,255,255, .05)
+			transition: all .7s ease
+
+.top_text
+	p
+		color: $bg_light
+		+kerning(5)
+
+// TOGGLE-MENU
+.toggle_mnu
+	// background-color: $main_color
+	background-color: #000
+
+// SECTION
+section
+	.person_title
+		+kerning(2)
+		color: #555
+
+.description
+	+kerning(5)
+
+// SECTION-CONTENT
+.section_content
+	p
+		&:nth-child(even)
+			color: $color
+	li
+		color: $text_color
+
+// SECTION-CONTENT-RESUME
+.resume
+	.resume_content
+		h3
+			+kerning(1)
+	.resume_item
+		.resume_item_year
+			background-color: $color
+			color: #fff
+			font-weight: 600
+			font-style: italic
+		.resume_item_description
+			+kerning(1)
+
+// SECTION-CONTENT-PORTFOLIO
+.portfolio
+	li
+		color: $text_color
+		+kerning(2)
+		&.active
+			color: #fff
+			border-bottom: 1px solid $color
+	
+.portfolio_item
+	.portfolio_item_box
+		a
+			border-color: $color
+			color: $color
+			display: inline-block
+.portfolio
+	.section_content
+		.portfolio_item
+			.portfolio_item_box
+				p
+					color: $text_color
+
+.contacts
+	.section_content
+		ul
+			li
+				color: $color
+
+// FOOTER
+.footer a
+	color: $color
+
+.contacts_icon
+	color: $color
+
+.text-danger
+	color: $color
+
+form
+	input:focus,
+	textarea:focus
+		border: 1px solid $color
+	input,
+	textarea
+		+kerning(2)
+	button
+		background-color: $color
+		+kerning(2)
+
+.form-group
+	+kerning(2)
+	color: $text_color
+		
+
+
+
+

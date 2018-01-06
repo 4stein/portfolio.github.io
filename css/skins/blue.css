@@ -1,0 +1,119 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #2EA2CC; }
+
+p {
+  color: #888; }
+
+section h4 {
+  letter-spacing: 3px;
+  color: #888; }
+
+.footer {
+  color: #888 !important; }
+
+.color_element {
+  color: #2EA2CC; }
+
+.color_bg {
+  background-color: #2EA2CC; }
+
+.color_border {
+  border-color: #2EA2CC; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.main_color_bg {
+  background-color: #222; }
+
+svg path {
+  fill: #e0e0e0 !important; }
+
+.nav a {
+  color: #fff;
+  letter-spacing: 4px; }
+  .nav a:hover {
+    color: #2EA2CC;
+    transition: all 0.7s ease; }
+
+.top_text p {
+  color: #FAFAFA;
+  letter-spacing: 5px; }
+
+.toggle_mnu {
+  background-color: #000; }
+
+section .person_title {
+  letter-spacing: 2px;
+  color: #555; }
+
+.description {
+  letter-spacing: 5px; }
+
+.section_content p:nth-child(even) {
+  color: #2EA2CC; }
+.section_content li {
+  color: #888; }
+
+.resume .resume_content h3 {
+  letter-spacing: 1px; }
+.resume .resume_item .resume_item_year {
+  background-color: #2EA2CC;
+  color: #fff;
+  font-weight: 600;
+  font-style: italic; }
+.resume .resume_item .resume_item_description {
+  letter-spacing: 1px; }
+
+.portfolio li {
+  color: #888;
+  letter-spacing: 2px; }
+  .portfolio li.active {
+    color: #fff;
+    border-bottom: 1px solid #2EA2CC; }
+
+.portfolio_item .portfolio_item_box a {
+  border-color: #2EA2CC;
+  color: #2EA2CC;
+  display: inline-block; }
+
+.portfolio .section_content .portfolio_item .portfolio_item_box p {
+  color: #888; }
+
+.contacts .section_content ul li {
+  color: #2EA2CC; }
+
+.footer a {
+  color: #2EA2CC; }
+
+.contacts_icon {
+  color: #2EA2CC; }
+
+.text-danger {
+  color: #2EA2CC; }
+
+form input:focus,
+form textarea:focus {
+  border: 1px solid #2EA2CC; }
+form input,
+form textarea {
+  letter-spacing: 2px; }
+form button {
+  background-color: #2EA2CC;
+  letter-spacing: 2px; }
+
+.form-group {
+  letter-spacing: 2px;
+  color: #888; }
+
+/*# sourceMappingURL=blue.css.map */
